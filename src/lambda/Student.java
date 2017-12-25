@@ -1,6 +1,8 @@
 package lambda;
 
 
+import java.io.Serializable;
+
 /**
  * 实体类.
  *

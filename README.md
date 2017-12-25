@@ -31,6 +31,13 @@
     ```
     可不使用`{}`包含方法，无需写明`return`关键词
     
+### 4、[四大内置函数式接口](./src/lambda/TestFunctionalInterface.java)
 
+-   `Consumer<Integer>`: 消费性接口， 抽象方法: `void accept()`
 
+-   `Supplier<T>`：供给型接口, 抽象方法：`T get()`
+
+-   `Function<T, R>`：函数型接口，抽象方法：`R apply(T t)`
+
+-   `Predicate<T>`：断言型接口，抽象方法：`boolean test(T t)`;
 
