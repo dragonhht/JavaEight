@@ -63,6 +63,9 @@ public class TestFunctionalInterface {
         return fun.apply(s);
     }
 
+    /**
+     * 断言型接口.
+     */
     @Test
     public void testPredicate() {
         String str = getStr(100, (s) -> s>99);
